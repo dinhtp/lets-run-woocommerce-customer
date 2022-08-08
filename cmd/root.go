@@ -13,7 +13,7 @@ var cfgFile string
 
 var rootCmd = &cobra.Command{
     Use:   "lets-run-woocommerce-customer",
-    Short: "A brief description of your application",
+    Short: "Run woocommerce customer root command",
 }
 
 func Execute() {
